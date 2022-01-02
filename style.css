@@ -1,0 +1,22 @@
+body {
+  background-color: #E0E9E6;
+}
+
+hr {
+  width: 30%;
+  border-top: 2px dotted #CCD1E4;
+  margin-left: 0;
+  width: 15%;
+}
+
+/* table:hover, ul:hover {
+  background-color: #CCD1E4;
+  border-radius: 25px;
+  padding: 2px;
+} */
+
+.h1, .h2, .h3, .h4, .h5, .h6, .p1, .p2, .p3 {
+  font-family: 'Vujahday Script', cursive;
+  font-weight:normal;
+  font-style:normal;
+}
