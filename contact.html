@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <body>
+
+    <div>
+    	<div class="container" id="form">
+
+    		<!-- Use POST. Not GET -->
+    		<form method="POST" action="mailto:hello@kaivalya.digital" enctype="text/plain">
+
+    			<span><label>First Name:</label></span> <input type="text" id="First Name" name="firstname">
+    			<br><br>
+
+    			<label>Last Name:</label> <input type="text" id="Last Name" name="lastname">
+    			<br><br>
+
+    			<label>Email:</label> <input type="email" id="Email" name="email" required>
+    			<br><br>
+
+    			<label>Password:</label> <input type="password" minlength="5" id="password" name="password" required>
+    			<br><br>
+
+    		 	<label>WhatsApp No:</label> <input type="tel" id="phone" name="phone" placeholder="999-999-9999" maxlength="10" required>
+    		  	<br><br>
+
+    			<label>BDay:</label> <input type="date" id="date" name="birthday">
+    			<br><br>
+
+    			<label>Gender:</label>
+    			<br>
+
+    			<input type="radio" name="gender" value="male">Male
+    			<br>
+    			<input type="radio" name="gender" value="female">Female
+    			<br>
+    			<input type="radio" name="gender" value="other">Other
+    			<br><br>
+
+    			<label>Pets:</label>
+
+    			<br>
+
+    			<input type="checkbox" name="Pets-cats">Cats
+
+    			<br>
+
+    			<input type="checkbox" name="Pets-dogs">Dogs
+
+    			<br>
+
+    			<input type="checkbox" name="Pets-monkeys">Monkeys
+
+    			<br><br>
+
+    			<label>Vehicles:</label>
+
+    			<br>
+
+    			<select name="vehicles">
+    				<option value=tesla>Tesla</option>
+    				<option value=bullockcart>Bullock Cart</option>
+    			</select>
+
+          <br><br>
+
+          <label>Upload your requirements:</label> <input type="file" name="file" value="">
+
+    			<br><br>
+
+            <label>Budget range:</label> <input type="range" value="" id="vol" name="budget" min="0" max="5">
+            <br>
+            <label>Choose from $500/mo, $1K/mo, $1.5K/mo, $2K/mo, $2K+/mo</label>
+
+          <br><br>
+
+          <label>Your Message</label>
+          <br>
+          <textarea name="textarea" rows="5" cols="50" required></textarea>
+
+          <br><br>
+
+    <label>Do you want to sign up for a newsletter?</label>
+    <input type="checkbox" name="checkbox" value="" checked required>
+    			<input type="submit" value="Register!"> <input type="reset">
+
+    		</form>
+
+    </div>
+  </body>
+</html>
